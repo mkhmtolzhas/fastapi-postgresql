@@ -17,7 +17,7 @@ UpdatedAt = Annotated[datetime, mapped_column(server_default=text("TIMEZONE(('ut
 class PostModel(Base):
     __tablename__ = "posts"
 
-    id: Mapped[int] = mapped_column(primary_key=True)
+    id: Mapped[idpk]
     title: Mapped[str] = mapped_column()
     content: Mapped[str] = mapped_column()
     created_at: Mapped[CreatedAt]

@@ -16,8 +16,7 @@ class PostInDB(PostCreate):
     updated_at: datetime
 
 
-class PostUpdate(BaseModel):
-    title: str
-    content: str
+class PostUpdate(PostCreate):
+    pass
 
     
