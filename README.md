@@ -36,7 +36,7 @@ fastapi-postgresql-boilerplate/
 ├── .env
 ├── .gitignore
 ├── .alembic.ini
-├── .dockerfile
+├── dockerfile
 ├── README.md
 ├── requirements.txt
 ```
